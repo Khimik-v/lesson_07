@@ -1,0 +1,187 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #f6f6f6;
+}
+
+.list-title {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #252B42;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px #222;
+}
+
+
+.plan-card {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 8px;
+    text-align: left;
+    padding: 40px;
+    margin-right: 33px;
+    background: white;
+    box-shadow: 0px 0px 15px -8px rgba(0, 0, 0, 1);
+    transition: all 0.3s;
+    width: 351px;
+}
+
+.plan-card:first-of-type {
+    margin-left: 13%;
+}
+
+.plan-card:hover {
+    background: #e1f4ff;
+    transform: scale(1.05);
+}
+
+
+
+.plan-header {
+    color: #252B42;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.5;
+    letter-spacing: 0.01px;
+    margin-top: 58px;
+
+}
+
+.plan-pricing-wrap {
+    margin-top: 17px;
+}
+
+.plan-price .price-val {
+    color: #252B42;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.42;
+    letter-spacing: 0.01em;
+}
+
+.plan-price {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.plan-desc {
+    display: inline-block;
+}
+
+
+.plan-period {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.plan-sale {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: #737373;
+    font-family: "Montserrat", sans-serif;
+}
+
+.plan-pricing-wrap::after {
+    content: "";
+    width: 17.34%;
+    height: 4px;
+    background-color: #31a0fe;
+}
+
+
+.plan-text {
+    color: #737373;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    margin: 17px 0;
+}
+
+.plan-list li {
+    font-family: "Montserrat", sans-serif;
+    color: #252B42;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+
+}
+
+.plan-list li:nth-of-type(n+2) {
+    margin-top: 15px;
+}
+
+.plan-ok::before,
+.plan-no::before {
+    content: "";
+    vertical-align: middle;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 14px;
+    background: url("/img/check.svg") 0 0 no-repeat;
+}
+
+.plan-list li:first-child {
+    margin-top: 33px;
+}
+
+.plan-no::before {
+    background: url("/img/checkgray.svg") 0 0 no-repeat;
+}
+
+.plan-no:last-of-type {
+    margin-bottom: 33px;
+}
+
+.plan-list li:last-child {
+    width: 278px;
+
+}
+
+.plan-btn {
+    border: 1px solid #252B42;
+    border-radius: 24px;
+    padding: 6px 24px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s;
+}
+
+.plan-btn:hover {
+    background: #31A0FE;
+    border: none;
+    color: #FFFFFF;
+}
+
+.list-footer {
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px #222;
+}
