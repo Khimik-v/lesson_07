@@ -2,7 +2,7 @@
 @import url(fonts.css);
 
 body {
-    background: url("repeat.jpg");
+    background: url(repeat.jpg);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
