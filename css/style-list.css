@@ -135,7 +135,7 @@ body {
     width: 32px;
     height: 32px;
     margin-right: 14px;
-    background: url("/img/check.svg") 0 0 no-repeat;
+    background: url("check.svg") 0 0 no-repeat;
 }
 
 .plan-list li:first-child {
@@ -143,7 +143,7 @@ body {
 }
 
 .plan-no::before {
-    background: url("/img/checkgray.svg") 0 0 no-repeat;
+    background: url("checkgray.svg") 0 0 no-repeat;
 }
 
 .plan-no:last-of-type {
